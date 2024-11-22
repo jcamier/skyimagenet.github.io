@@ -8,3 +8,6 @@ SkyImageNet is a dataset of satellite images with sky labels.
 python3 -m http.server 8000
 
 go to http://localhost:8000/
+
+## Public Website is:
+https://jcamier.github.io/skyimagenet.github.io/
