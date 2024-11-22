@@ -1,4 +1,80 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkyImageNet</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold flex items-center space-x-2">
+        <img src="images/logo.png" alt="SkyImageNet Logo" class="h-8">
+        <span>SkyImageNet</span>
+      </div>
+      <nav>
+        <ul class="flex space-x-6 text-gray-600">
+          <li><a href="#about" class="hover:text-gray-900">About</a></li>
+          <li><a href="#data" class="hover:text-gray-900">Data</a></li>
+          <li><a href="#tool" class="hover:text-gray-900">Tool</a></li>
+          <li><a href="#model" class="hover:text-gray-900">Model</a></li>
+          <li><a href="#demo" class="hover:text-gray-900">Demo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('background.jpg');"></div>
+    <div class="relative container mx-auto px-4 py-24 text-black text-center">
+      <h1 class="text-4xl font-bold mb-4">SkyImageNet</h1>
+      <p class="text-lg">Accelerating solar energy meteorology research with a large-scale standardized sky and atmospheric observation database</p>
+    </div>
+  </section>
+
+  <!-- Icons Section -->
+  <section class="container mx-auto px-4 py-12">
+    <div class="flex justify-center space-x-12">
+      <div class="text-center">
+        <div class="p-6 border rounded-lg">
+          <p class="text-xl font-semibold text-orange-500">Data</p>
+          <p class="text-sm text-gray-600 mt-2">SkyImageNet</p>
+        </div>
+      </div>
+      <div class="text-center">
+        <div class="p-6 border rounded-lg">
+          <p class="text-xl font-semibold text-green-500">Tool</p>
+          <p class="text-sm text-gray-600 mt-2">skyimglib</p>
+        </div>
+      </div>
+      <div class="text-center">
+        <div class="p-6 border rounded-lg">
+          <p class="text-xl font-semibold text-blue-500">Foundation Model</p>
+          <p class="text-sm text-gray-600 mt-2">SkyVision</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Data Section -->
+  <section id="data" class="bg-white py-12">
+    <div class="container mx-auto px-4 flex items-center">
+      <img src="images/world-map.png" alt="World Map" class="w-1/2">
+      <div class="ml-8">
+        <h2 class="text-2xl font-bold text-gray-800">Data</h2>
+        <p class="text-gray-600 mt-4">
+          The SkyImageNet database covers years of sky and atmospheric observations from diverse climate zones around the globe.
+        </p>
+        <button class="mt-4 px-6 py-2 bg-blue-500 text-white rounded shadow hover:bg-blue-600">
+          Read More
+        </button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
